@@ -1,4 +1,4 @@
-.toprow{
+.header{
     background-color:salmon;
     color:white;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -23,13 +23,23 @@
     margin-bottom:5px;
 }
 
-.maindog{
+.dogpic{
     border:1px solid black;  
     display:flex;
     justify-content:center;
 }
 
-.links {
+#projects {
+    
+}
+
+.box {
+    height: 300px;    
+    width: 300px;
+    flex-direction:row;
+    border: 5px solid black;
+}
+.footer {
     display:flex;
     justify-content:space-around;
     align-items: center;
@@ -39,14 +49,22 @@
 }
 
 a {
-    color:white;
     text-decoration: none;
 }
-a:visited {
+.header a:visited {
     color:lavender;
     text-decoration:underline;
 }
-a:hover {
+.header a:hover {
+    text-decoration: blink;
+    color: #4a7d91;
+}
+
+.box a:visited {
+    color:lavender;
+    text-decoration:underline;
+}
+.box a:hover {
     text-decoration: blink;
     color: #4a7d91;
 }
