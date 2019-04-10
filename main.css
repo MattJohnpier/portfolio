@@ -29,15 +29,20 @@
     justify-content:center;
 }
 
-#projects {
-    
-}
-
 .box {
     height: 300px;    
     width: 300px;
-    flex-direction:row;
-    border: 5px solid black;
+    flex-direction:column;    
+    align-items:center;
+    font-size:25px; 
+    color:#4a7d91;
+    border: 5px solid salmon;
+    margin-top: 10px;
+}
+
+.thumbnails {
+    height:250px;
+    width:300px;
 }
 .footer {
     display:flex;
@@ -61,7 +66,6 @@ a {
 }
 
 .box a:visited {
-    color:lavender;
     text-decoration:underline;
 }
 .box a:hover {
